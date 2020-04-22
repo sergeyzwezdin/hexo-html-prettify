@@ -1,30 +1,35 @@
 {
-  "name": "hexo-html-prettify",
-  "version": "0.0.1",
-  "description": "HTML beautifier for Hexo static site generator.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sergeyzwezdin/hexo-html-prettify.git"
-  },
-  "keywords": [
-    "hexo",
-    "html",
-    "beautify"
-  ],
-  "author": "Sergey Zwezdin <sergey@zwezdin.com> (https://zwezdin.com)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sergeyzwezdin/hexo-html-prettify/issues"
-  },
-  "homepage": "https://github.com/sergeyzwezdin/hexo-html-prettify#readme",
-  "devDependencies": {
-    "hexo": "^4.2.0"
-  },
-  "dependencies": {
-    "js-beautify": "^1.11.0"
-  }
+    "name": "hexo-html-prettify",
+    "version": "0.0.1",
+    "description": "HTML beautifier for Hexo static site generator.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sergeyzwezdin/hexo-html-prettify.git"
+    },
+    "files": [
+        "index.js",
+        "lib/"
+    ],
+    "keywords": [
+        "hexo",
+        "html",
+        "beautify"
+    ],
+    "author": "Sergey Zwezdin <sergey@zwezdin.com> (https://zwezdin.com)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/sergeyzwezdin/hexo-html-prettify/issues"
+    },
+    "homepage": "https://github.com/sergeyzwezdin/hexo-html-prettify#readme",
+    "devDependencies": {
+        "hexo": "^4.2.0"
+    },
+    "dependencies": {
+        "js-beautify": "^1.11.0",
+        "micromatch": "^4.0.2"
+    }
 }
