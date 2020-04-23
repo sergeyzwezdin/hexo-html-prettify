@@ -25,11 +25,11 @@
         "url": "https://github.com/sergeyzwezdin/hexo-html-prettify/issues"
     },
     "homepage": "https://github.com/sergeyzwezdin/hexo-html-prettify#readme",
-    "devDependencies": {
-        "hexo": "^4.2.0"
-    },
     "dependencies": {
         "js-beautify": "^1.11.0",
         "micromatch": "^4.0.2"
+    },
+    "peerDependencies": {
+        "hexo": "^4.2.0"
     }
 }
